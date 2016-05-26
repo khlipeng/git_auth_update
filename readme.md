@@ -13,7 +13,7 @@
 	* 例子
 		
 			{
-			  "name": "auth update ",
+			  "name": "auto update ",
 			  "version": "1.0.0",
 			  "list": {
 			      "project": {
@@ -27,7 +27,7 @@
 		
 	* 使用
 		
-		> http://0.0.0.0:7777/webhook?token= youtoken&name=project
+		> http://0.0.0.0:7777/webhook?token=youtoken&name=project
 
 ## 脚本
 * 根据需要进行配置
