@@ -1,0 +1,12 @@
+{
+    "name": "auth update ",
+    "version": "1.0.0",
+    "list": {
+        "project": {
+          "name" : "project",
+          "desc" : "XX项目",
+          "script" : "deploy.sh",
+          "token" : "youtoken"
+        }
+    }
+  }
