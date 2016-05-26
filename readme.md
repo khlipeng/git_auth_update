@@ -65,3 +65,18 @@
 > forever stop 1
 > 
 > forever restartall
+
+### 免密码登录
+* git@xx.com
+
+	> 使用 ssk key
+
+* HTTPS 方式
+
+	> 对于HTTPS方式，你可以在 `~/.netrc` 文件里设定用户名密码，不过这样的风险在于密码是明文存放在这个文件里的，比较容易泄露
+	
+	```
+	machine github.com
+	login Username
+	password Password
+	```
