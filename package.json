@@ -15,6 +15,7 @@
   "author": "leepeng <lp@kuhui.com.cn>",
   "license": "MIT",
   "dependencies": {
+    "github-webhook-handler": "^0.5.0",
     "gitlab-webhook-handler": "^1.0.1"
   }
 }
